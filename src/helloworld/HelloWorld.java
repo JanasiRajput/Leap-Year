@@ -21,6 +21,7 @@ public class HelloWorld {
         } else {
             System.out.println(year + " is not a leap year.");
         }
+        System.out.println("Hello World! Welcome to NetBeans Git Workflow!");
         
         scanner.close();
     }

@@ -12,7 +12,7 @@ public class HelloWorld {
         Scanner scanner = new Scanner(System.in);
         
         // Ask the user to enter a year
-        System.out.print("Enter a year to check if it's a leap year: ");
+        System.out.println("Enter a year to check if it's a leap year (NetBeans demo): ");   
         int year = scanner.nextInt();
         
         // Check if the year is a leap year
@@ -22,7 +22,7 @@ public class HelloWorld {
             System.out.println(year + " is not a leap year.");
         }
         System.out.println("Hello World! Welcome to NetBeans Git Workflow!");
-        
+             
         scanner.close();
     }
 
